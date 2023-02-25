@@ -1,22 +1,12 @@
-async function promise(){
-    const a =  await new Promise((res,err)=>{
-        setTimeout(() => {
-            res('function');
-        }, 3000);
-    });
-    return a;
+function sum(x, y) {
+  const a = new Promise((res, rej) => {
+    setTimeout(() => {
+      res(x + y);
+    }, 0);
+  });
+  return a;
 }
-
-console.log(await promise())
-console.log("Hello");
-
-// const value = async ()=>{
-//     let promise = await new Promise((res)=>{
-//         setTimeout(res('a'),3000);
-//     })
-//     return promise; 
-// }
-// let store = await value().then(res=>{
-//     return res;
-// })
-// console.log(store)
+const result = await sum(3, 5);
+console.log(result);
+// console.log(await sum(3, 5));
+// console.log("Hello");

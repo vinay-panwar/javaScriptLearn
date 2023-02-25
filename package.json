@@ -1,5 +1,24 @@
 {
+  "name": "javascript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "dependencies": {
-    "node": "^19.3.0"
-  }
+    "node": "^19.3.0",
+    "node-bin-setup": "^1.1.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinayMindpath/JavaScript.git"
+  },
+  "author": "Vinay Panwar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vinayMindpath/JavaScript/issues"
+  },
+  "homepage": "https://github.com/vinayMindpath/JavaScript#readme"
 }
